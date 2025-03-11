@@ -142,6 +142,49 @@
         border-radius: 50%;
     }
 
+    .card {
+      border: 1px solid rgb(0, 0, 0) ;
+      margin-bottom: 3%;
+      padding: 5%;
+      height: 100%;
+      border-radius: 30px;
+    }
+
+    .card-experience {
+      border: 1px solid rgb(0, 0, 0) ;
+      margin-bottom: 3%;
+      padding: 4%;
+      height: auto;
+      border-radius: 30px;
+    }
+
+    .card-body {
+      line-height: 10px;
+      font-weight: bold;
+    }
+
+    .skill-circle {
+      border: 1px solid rgb(0, 0, 0) ;
+      width: 150px;
+      height: 150px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px auto;
+    }
+    
+    .row p {
+      margin-top: 3px;
+      font-weight: bold;
+    }
+
+    .skill-circle img {
+      width: 90px;
+      height: 90px;
+    }
+
     section {
       min-height: auto;
       padding-top: 80px;
@@ -207,85 +250,376 @@
           </div>
         </div>    
   </section>
-  <section id="proyectos">
+  <section id="proyectos" role="tabpanel">
     <h1>Proyectos</h1>
-    <p>Content for Proyectos...</p>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <h5>QRADM</h5>
+          <p>Aplicación WEB y móvil para la gestión de la entrada
+            de eventos a través de QR. Gestión para la entrega de
+            objetos registrados por QR. Gestión de la puntuación a
+            los grupos por QR. La infraestructura se utilizó como
+            código con AWS yml está en el mismo repositorio, trabajando
+            con SCRUM. </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <h5>Entredely</h5>
+          <p>Cree pedidos y asígnelos a sus conductores con su
+            aplicación móvil, todo gratis. Los conductores ahora
+            reciben sus pedidos para ser entregados a través de
+            notificaciones push a su aplicación. El proyecto
+            contiene Frontend, Backend, Mobile App.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <h5>Escuela BIblica Virtual</h5>
+          <p>En esta aplicación puede encontrar una variedad
+            de cursos bíblicos, que abordan diferentes temas,
+            como el matrimonio, las profecías y otros. Algunos
+            de ellos incluso están elaborados para satisfacer
+            las necesidades de los jóvenes, adolescentes o niños.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <h5>ConquisLike</h5>
+          <p>Jovenes con gran pasión en el Club de Conquistadores
+            La presente aplicación contiene un buen número de
+            especialidades la cual podrás visualizar y compartir
+            con tus amigos.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <h5>Joven@Joven</h5>
+          <p>Estudio Online de Joven @ Joven “La Fe de Jesús”,
+            ahora en tu teléfono. 18 Lecciones (ya incluyen los
+            textos Bíblicos y campos de respuestas), esta es
+            una iniciativa de la Iglesia Adventista del Séptimo Día,
+            en la Misión del Oriente Boliviano. Proyecto para Android,
+            Panel Administrativo.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <h5>BCS app</h5>
+          <p>Proyecto desarrollado para BCS BROKERS CORPORATIVOS DE
+            SEGUROS S.R.L. el cual beneficia al mercado de seguros
+            con una aplicación que ayudará a nuestros clientes a
+            comunicarnos en los momentos más críticos en todos los
+            casos de siniestros. Proyecto para Android.</p>
+        </div>
+      </div>
+    </div>
   </section>
-  <section id="habilidades">
-    <h1>Habilidades</h1>
-    <!-- Sección Proyectos -->
-    <div class="tab-pane fade" id="proyectos" role="tabpanel">
-      <h1>Proyectos</h1>
-      <div class="card">
-          <h5>Proyecto 1</h5>
-          <p>Descripción del proyecto...</p>
-      </div>
-      <div class="card">
-          <h5>Proyecto 2</h5>
-          <p>Descripción del proyecto...</p>
-      </div>
-  </div>
-
-  <!-- Sección Habilidades -->
-  <div class="tab-pane fade" id="habilidades" role="tabpanel">
-      
-      <h1>Habilidades</h1>
-      
-      <!-- Bases de datos -->
-      <h3>Bases de datos</h3>
-      <div class="row text-center">
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>MySQL</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>SQL Server</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>SQLite</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>PostgreSQL</p>
-          </div>
-      </div>
-      
-      <!-- Plataformas en la nube -->
-      <h3>Plataformas en la nube</h3>
-      <div class="row text-center">
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>AWS</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>Azure</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>DevOps</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>Digital Ocean</p>
-          </div>
-          <div class="col-md-2">
-              <div class="skill-circle"></div>
-              <p>IBM</p>
-          </div>
-      </div>
-  </div>
   
+  <section id="habilidades" role="tabpanel">
+    <h1>Habilidades</h1>
+
+    <!-- Lenguajes y frameworks -->
+    <h5>Lenguajes y frameworks</h5>
+    <div class="row text-center">
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="objc_icon.png" alt="iOS Obj-C" class="skill-image">
+            </div>
+            <p>iOS Obj-C</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="swift_icon.png" alt="iOS Swift" class="skill-image">
+            </div>
+            <p>iOS Swift</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="anaconda_icon.png" alt="Python/Anaconda" class="skill-image">
+            </div>
+            <p>Python/Anaconda</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="ruby_icon.png" alt="Ruby/Ruby on Rails" class="skill-image">
+            </div>
+            <p>Ruby/Ruby on Rails</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="flutter_logo.png" alt="Dart/Flutter" class="skill-image">
+            </div>
+            <p>Dart/Flutter</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="androidstudio_logo.png" alt="Java Web / Android Studio" class="skill-image">
+            </div>
+            <p>Java Web / Android Studio</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="nodejs_icon.png" alt="Node JS" class="skill-image">
+            </div>
+            <p>Node JS</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="react_icon.png" alt="React Web / Native" class="skill-image">
+            </div>
+            <p>React Web / Native</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="vue_icon.png" alt="Vue.js" class="skill-image">
+            </div>
+            <p>Vue.js</p>
+        </div>
+    </div>
+
+    <!-- Herramientas y servicios -->
+    <h5>Herramientas y servicios</h5>
+    <div class="row text-center">
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="heroku_icon.png" alt="Heroku" class="skill-image">
+            </div>
+            <p>Heroku</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="bitbucket_icon.webp" alt="Bitbucket" class="skill-image">
+            </div>
+            <p>Bitbucket</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="github_icon.png" alt="Github" class="skill-image">
+            </div>
+            <p>Github</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="travisCI.png" alt="Travis CI" class="skill-image">
+            </div>
+            <p>Travis CI</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="gitlab_icon.png" alt="GitLab" class="skill-image">
+            </div>
+            <p>GitLab</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="tfs_icon.jpg" alt="Team Foundation Server" class="skill-image">
+            </div>
+            <p>Team Foundation Server</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="jira_icon.png" alt="Jira" class="skill-image">
+            </div>
+            <p>Jira</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="azure_icon.png" alt="Azure DevOps" class="skill-image">
+            </div>
+            <p>Azure DevOps</p>
+        </div>
+    </div>
+
+    <!-- Bases de datos -->
+    <h5>Bases de datos</h5>
+    <div class="row text-center">
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="mysql_logo.png" alt="MySQL" class="skill-image">
+            </div>
+            <p>MySQL</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="sqlserver_icon.png" alt="SQLServer" class="skill-image">
+            </div>
+            <p>SQLServer</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="sqlite_logo.png" alt="SQLite" class="skill-image">
+            </div>
+            <p>SQLite</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="pstgresql_icon.png" alt="PostgreSQL" class="skill-image">
+            </div>
+            <p>PostgreSQL</p>
+        </div>
+    </div>
+
+    <!-- Plataformas en la nube -->
+    <h5>Plataformas en la nube</h5>
+    <div class="row text-center">
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="aws_icon.png" alt="AWS" class="skill-image">
+            </div>
+            <p>AWS</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="azure2_icon.webp" alt="Azure" class="skill-image">
+            </div>
+            <p>Azure</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="devops_icon.png" alt="DevOps" class="skill-image">
+            </div>
+            <p>DevOps</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="digitalocean_icon.png" alt="Digital Ocean" class="skill-image">
+            </div>
+            <p>Digital Ocean</p>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="skill-circle">
+                <img src="ibm_icon.png" alt="IBM" class="skill-image">
+            </div>
+            <p>IBM</p>
+        </div>
+    </div>
+</section>
+
+<section id="experiencia" role="tabpanel">
+  <h1>Experiencia Laboral</h1>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2024/07 - presente</p>
+          <p>Ingeniero Full Stack</p>
+          <p>PlayByPoint</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2023/01 - presente</p>
+          <p>Docente de Universidad</p>
+          <p>Universidad del Valle (BO)</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2021/11 - 2024/06</p>
+          <p>Jefe Tecnico (CTO)</p>
+          <p>NETACTICA</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2017/12 - 2021/10</p>
+          <p>Jefe de Desarrollo de Tecnologias</p>
+          <p>Banco Fassil S.A., Bolivia</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2015/01 - presente</p>
+          <p>Desarrollador Freelance</p>
+          <p>Dentro y fuera del pais</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2015/01 - 2017/11</p>
+          <p>Ingeniero de Software</p>
+          <p>Ticketed S.R.L., Bolivia</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2014/08 - 2015/12</p>
+          <p>Ingeniero de Software</p>
+          <p>V8 S.R.L., Bolivia</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2013/03 - 2014/11</p>
+          <p>Ingeniero de Software</p>
+          <p>Zoom, Bolivia</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>2011/02 - 2012/12</p>
+          <p>Asistente de laboratorio, Asistente de docente</p>
+          <p>Universidad Gabriel Rene Moreno, Bolivia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   </section>
-  <section id="experiencia">
-    <h1>Experiencia Laboral</h1>
-    <p>Content for Experiencia Laboral...</p>
-  </section>
+
   <section id="educacion">
     <h1>Educación y Certificacion</h1>
-    <p>Content for Educación y Certificacion...</p>
+    
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>Master en manejo estratégico de ingeniería de software</p>
+          <p>Universidad Gabriel Rene Moreno, Santa Cruz - Bolivia</p>
+          <p>Educación Superior</p>
+          <p>10/2020 - En proceso</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>Titulo en educación superior</p>
+          <p>Universidad Gabriel Rene Moreno, Santa Cruz - Bolivia</p>
+          <p>Educación Superior</p>
+          <p>08/2018 - 12/2018</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card-experience">
+        <div class="card-body">
+          <p>Ingeniería Informatica</p>
+          <p>Universidad Gabriel Rene Moreno, Santa Cruz - Bolivia</p>
+          <p>Tesis</p>
+          <p>2007 - 2013</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Bootstrap JS (with Popper) -->
